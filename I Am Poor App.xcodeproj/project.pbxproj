@@ -16,6 +16,7 @@
 		3F18712F2AA73B22001B8A7F /* I_Am_Poor_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18712E2AA73B22001B8A7F /* I_Am_Poor_AppTests.swift */; };
 		3F1871392AA73B22001B8A7F /* I_Am_Poor_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1871382AA73B22001B8A7F /* I_Am_Poor_AppUITests.swift */; };
 		3F18713B2AA73B22001B8A7F /* I_Am_Poor_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18713A2AA73B22001B8A7F /* I_Am_Poor_AppUITestsLaunchTests.swift */; };
+		3FD06DAF2ACDC98F00202683 /* I Am Poor App in Resources */ = {isa = PBXBuildFile; fileRef = 3FD06DAE2ACDC98F00202683 /* I Am Poor App */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3F1871342AA73B22001B8A7F /* I Am Poor AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I Am Poor AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1871382AA73B22001B8A7F /* I_Am_Poor_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Am_Poor_AppUITests.swift; sourceTree = "<group>"; };
 		3F18713A2AA73B22001B8A7F /* I_Am_Poor_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Am_Poor_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FD06DAE2ACDC98F00202683 /* I Am Poor App */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "I Am Poor App"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				3F1871172AA73B20001B8A7F /* AppDelegate.swift */,
 				3F1871192AA73B20001B8A7F /* SceneDelegate.swift */,
 				3F18711B2AA73B20001B8A7F /* ViewController.swift */,
+				3FD06DAE2ACDC98F00202683 /* I Am Poor App */,
 				3F18711D2AA73B20001B8A7F /* Main.storyboard */,
 				3F1871202AA73B22001B8A7F /* Assets.xcassets */,
 				3F1871222AA73B22001B8A7F /* LaunchScreen.storyboard */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F1871242AA73B22001B8A7F /* LaunchScreen.storyboard in Resources */,
+				3FD06DAF2ACDC98F00202683 /* I Am Poor App in Resources */,
 				3F1871212AA73B22001B8A7F /* Assets.xcassets in Resources */,
 				3F18711F2AA73B20001B8A7F /* Main.storyboard in Resources */,
 			);
@@ -451,9 +455,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "AlexCO.I-Am-Poor-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -478,9 +485,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "AlexCO.I-Am-Poor-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
